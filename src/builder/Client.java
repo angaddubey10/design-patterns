@@ -11,12 +11,21 @@ public class Client {
 //        System.out.println(student.getAge());
 //        System.out.println(student.getName());
 
-        Builder builder = Student.getBuilder();
-        builder.setName("abc");
-        builder.setAge(12);
-        builder.setPhone("1233456");
+//        Builder builder = Student.getBuilder();
+//        builder.setName("abc");
+//        builder.setAge(12);
+//        builder.setPhone("1233456");
+//
+//        Student student = builder.build();
 
-        Student student = builder.Build();
+        Student student = Student.getBuilder()
+                .setName("dfd")
+                .setAge(12)
+                .setPhone("sfdsf")
+                .build();
+
+//        Student student1 = new Student(null);
+
 
 
     }

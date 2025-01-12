@@ -7,6 +7,10 @@ public class Builder {
     private String batchName;
     private String phone;
 
+    public Student build(){
+        return new Student(this);
+    }
+
     public String getName() {
         return name;
     }

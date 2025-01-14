@@ -18,6 +18,10 @@ public class Student {
         this.phone = builder.getPhone();
     }
 
+    public static Builder getBuilder(){
+        return new Builder();
+    }
+
     public String getName() {
         return name;
     }

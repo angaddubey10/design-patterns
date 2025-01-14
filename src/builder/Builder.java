@@ -1,5 +1,6 @@
 package builder;
-
+//This class won't be needed here it will be created inside the Student class as an INNER CLASS
+/*
 public class Builder {
     private String name;
     private  int age;
@@ -47,3 +48,4 @@ public class Builder {
         this.phone = phone;
     }
 }
+*/
